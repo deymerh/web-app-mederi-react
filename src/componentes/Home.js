@@ -1,7 +1,9 @@
 import React from 'react';
+import '../styles/home.css';
+import '../styles/universal.css';
 import hero1 from '../assets/hero-1.jpg';
 import equipoMedico from '../assets/equipo_medico.png';
-import '../styles/home.css'
+
 export const Home = ()=> {
   return (
     <div>
