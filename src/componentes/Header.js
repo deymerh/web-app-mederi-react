@@ -1,6 +1,10 @@
 import React from 'react';
-import '../styles/header.css'
+import '../styles/universal.css';
+import '../styles/header.css';
 import logo from '../assets/1-logo-mederi.png';
+import iconfb from '../assets/facebook-f-brands.svg';
+import iconins from '../assets/instagram-brands.svg';
+
 export const Header = ()=>{
   return (
     <div className="header">
@@ -18,8 +22,8 @@ export const Header = ()=>{
                   <li><a href="servicios.html">Nuestros Servicios</a></li>
                   <li><a href="agenda.html">Agenda tu Cita</a></li>
                   <li><a href="contacto.html">Contáctanos</a></li>
-                  <li><a href="/"><i className="fab fa-facebook-square"></i></a></li>
-                  <li><a href="/"><i className="fab fa-instagram"></i></a></li>
+                  <li><a href="/"><img src={iconfb} alt="facebook-icon" /></a></li>
+                  <li><a href="/"><img src={iconins} alt="instagram-icon" /></a></li>
                   <li><a href="/"><i className="fas fa-search"></i></a></li>
                   <li><a href="/"><i className="fas fa-user-clock"></i></a></li>
                 </ul>
