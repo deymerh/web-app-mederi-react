@@ -1,10 +1,10 @@
 import React from 'react';
-import '../assets/universal.css';
+import '../styles/universal.css';
 import '../styles/about.css';
 import stethoscope from '../assets/stethoscope.png';
 import bogota from '../assets/bogota.jpg';
 
-export const About = ()=>{
+const About = ()=>{
     return(
         <div>
         <section className="content">
@@ -51,3 +51,4 @@ export const About = ()=>{
         </div>
     )
 }
+export default About;

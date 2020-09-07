@@ -1,7 +1,7 @@
 import React from 'react';
 import icon from '../assets/stethoscope.png';
 
-export const Head = ()=>{
+const Head = ()=>{
     return(
         <head>
             <meta charset="UTF-8" />
@@ -13,3 +13,4 @@ export const Head = ()=>{
         </head>
     );
 }
+export default Head;

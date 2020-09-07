@@ -2,21 +2,21 @@ import React from 'react';
 import '../styles/universal.css';
 import '../styles/services.css';
 
-export const Services = ()=>{
+const Services = ()=>{
     return (
         <div>
-            <section class="title">
-                <div class="title__text">
+            <section className="title">
+                <div className="title__text">
                     <h2>Contamos con especialistas para atender los servicios básicos más importantes y frecuentes que nuestros usuarios requieren.</h2><br/>
                     <p>Puedes agendar tu cita para asistir presencialmete (Solo en Bogotá) o de forma virtual (Cubrimiento Nacional)</p>
                 </div>
             </section>
-            <section class="services">
+            <section className="services">
                 <div>
-                    <div class="services__subtitle">
+                    <div className="services__subtitle">
                         <h2>Servicios más comúnes</h2>
                     </div>
-                    <div class="services__detail">
+                    <div className="services__detail">
                         <ol>
                             <li>Colonterapia</li>
                             <li>Gastroenterología</li>
@@ -26,10 +26,10 @@ export const Services = ()=>{
                     </div>
                 </div>
                 <div>
-                    <div class="services__subtitle">
+                    <div className="services__subtitle">
                         <h2>Servicios más frecuentes</h2>
                     </div>
-                    <div class="services__detail">
+                    <div className="services__detail">
                         <ol>
                             <li>Oftalmología</li>
                             <li>Neurología</li>
@@ -40,9 +40,11 @@ export const Services = ()=>{
                     </div>
                 </div>
             </section>
-            <section class="button">
-                <a href="agenda.html"><button class="hero__button">Agenda Tu Cita Ahora</button></a>
+            <section className="button">
+                <a href="agenda.html"><button className="hero__button">Agenda Tu Cita Ahora</button></a>
             </section>
         </div>
     );
 }
+
+export default Services;

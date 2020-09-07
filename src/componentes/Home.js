@@ -4,7 +4,7 @@ import '../styles/universal.css';
 import hero1 from '../assets/hero-1.jpg';
 import equipoMedico from '../assets/equipo_medico.png';
 
-export const Home = ()=> {
+const Home = ()=> {
   return (
     <div>
       <section className="hero">
@@ -88,3 +88,4 @@ export const Home = ()=> {
     </div>
   );
 }
+export default Home;
