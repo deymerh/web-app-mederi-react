@@ -1,3 +1,7 @@
+.about {
+    min-height: calc(100vh - 207px - 73px);
+}
+
 .content {
     margin: 50px 100px;
     color: #566573;

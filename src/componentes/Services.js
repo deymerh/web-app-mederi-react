@@ -4,7 +4,7 @@ import '../styles/services.css';
 
 const Services = ()=>{
     return (
-        <div>
+        <section className="services__container">
             <section className="title">
                 <div className="title__text">
                     <h2>Contamos con especialistas para atender los servicios básicos más importantes y frecuentes que nuestros usuarios requieren.</h2><br/>
@@ -41,9 +41,9 @@ const Services = ()=>{
                 </div>
             </section>
             <section className="button">
-                <a href="agenda.html"><button className="hero__button">Agenda Tu Cita Ahora</button></a>
+                <a href="/schedule"><button className="hero__button">Agenda Tu Cita Ahora</button></a>
             </section>
-        </div>
+        </section>
     );
 }
 

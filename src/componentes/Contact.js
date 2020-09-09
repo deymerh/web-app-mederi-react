@@ -5,7 +5,7 @@ import '../styles/contact.css'
 
 export const Contact = ()=>{
     return(
-        <div>
+        <section className="contact">
             <section className="title">
                 <div className="title__text">
                     <h2>Contactárnos es muy fácil</h2>
@@ -30,10 +30,10 @@ export const Contact = ()=>{
                     <input className="input" aria-label="Correo Electrónico" type="email" name="email" id="email" placeholder="Correo Electrónico*" required />
                     <input className="input" aria-label="Teléfono" type="number" name="phone" id="phone" placeholder="Teléfono*" required />
                     <textarea className="input" name="detail" id="detail" cols="30" rows="5" placeholder="Cuéntanos tu inquietud*" required></textarea>
-                    <label htmlFor="terms"><input type="checkbox" name="terms" id="terms" required /> Acepta nuestra <Link to="/terms">política de privacidad   </Link></label>
+                    <label htmlFor="terms"><input type="checkbox" name="terms" id="terms" required /> Acepta nuestra <Link to="/terms" target="_blank">política de privacidad   </Link></label>
                     <input className="hero__button" type="submit" value="Enviar Información" />
                 </form>
             </section>
-        </div>
+        </section>
     );
 }

@@ -1,3 +1,7 @@
+.doctor__container {
+    min-height: calc(100vh - 207px - 73px);
+}
+
 .doctor__detail {
     margin: 50px;
     display: flex;
